@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile | Mohammed Ilyas Siddiqui</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- BACKGROUND ANIMATION LAYER -->
+    <div class="background-orb orb-1"></div>
+    <div class="background-orb orb-2"></div>
+
+    <!-- HEADER: Glassmorphism -->
+    <header class="glass-panel">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Mohammed.Ilyas</a>
+                
+                <!-- MOBILE MENU BUTTON -->
+                <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <!-- NAVIGATION LINKS -->
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero">
+            <div class="container">
+                <div class="profile-img-container fade-in-up">
+                    <img src="https://picsum.photos/seed/mohammedilyas/400/400.jpg" alt="Mohammed Ilyas Siddiqui" class="profile-img">
+                </div>
+                
+                <h1 class="fade-in-up delay-1">Mohammed Ilyas Siddiqui</h1>
+                
+                <p class="bio-subtitle fade-in-up delay-1">
+                    Full Stack Developer & Tech Enthusiast specializing in scalable web applications.
+                </p>
+                
+                <a href="#contact" class="btn btn-primary fade-in-up delay-2">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title fade-in-up">About Me</h2>
+                <article class="glass-panel card fade-in-up delay-1">
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        Hello! I am Mohammed Ilyas Siddiqui, a passionate developer based in San Francisco. With a strong foundation in Computer Science, I have spent years building robust web applications and mastering modern technologies.
+                    </p>
+                    <br>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        I believe in clean code, efficient algorithms, and user-centric design. My goal is to leverage technology to solve real-world problems.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-grid">
+                    <li class="glass-panel skill-item">HTML5 & CSS3</li>
+                    <li class="glass-panel skill-item">JavaScript (ES6+)</li>
+                    <li class="glass-panel skill-item">React.js</li>
+                    <li class="glass-panel skill-item">Node.js</li>
+                    <li class="glass-panel skill-item">Python</li>
+                    <li class="glass-panel skill-item">SQL Databases</li>
+                    <li class="glass-panel skill-item">Git & DevOps</li>
+                    <li class="glass-panel skill-item">UI/UX Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                
+                <article class="glass-panel card">
+                    <time class="edu-date">2018 - 2022</time>
+                    <h3 class="edu-degree">B.Sc. Computer Science</h3>
+                    <p>University of Technology</p>
+                    <p style="margin-top: 15px; opacity: 0.8;">
+                        Graduated with Honors. Focused on Software Engineering and Database Management Systems.
+                    </p>
+                </article>
+
+                <article class="glass-panel card">
+                    <time class="edu-date">2023</time>
+                    <h3 class="edu-degree">Advanced Web Development Bootcamp</h3>
+                    <p>Tech Academy Online</p>
+                    <p style="margin-top: 15px; opacity: 0.8;">
+                        Intensive full-stack training covering MERN stack (MongoDB, Express, React, Node).
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Details</h2>
+                <div class="glass-panel card contact-details">
+                    <p><strong>Email:</strong> <a href="mailto:mohammed@example.com" class="contact-link">mohammed@example.com</a></p>
+                    <p><strong>Phone:</strong> (555) 987-6543</p>
+                    <p><strong>Location:</strong> San Francisco, CA</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="glass-panel">
+        <div class="container">
+            <p>&copy; 2026 Mohammed Ilyas Siddiqui. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
